@@ -6,8 +6,8 @@
 `说明:`
 
 - 在命令行下，将目录切换到你的项目目录${project_workspace};
-- 首先clone本项目到${project_workspace}(demoProjects是要导入的module配置文件,demoSettings是settings.gradle要添加的module)
-- 将script.sh和operation.sh标记为可执行程序,否则在使用时记得前面加bash,或sh,如:bash script.sh config/demoProjects config/demoSettings
+- 首先clone本项目到${project_workspace}(将config文件夹,script.sh,operation.sh,并将这3个文件移动到${project_workspace})
+- 将script.sh和operation.sh标记为可执行程序,否则在使用时记得前面加bash,或sh,如:bash script.sh config/demoProjects config/demoSettings((demoProjects是要导入的module配置文件,demoSettings是settings.gradle要添加的module))
 - clone开发项目, 执行./script config/xxxProjects config/xxxSettings. 比如: ./script config/demoProjects config/demoSettings
 
 - 平时工作时,切换到相应的项目目录,然后根据不同需求执行不同命令.比如:
